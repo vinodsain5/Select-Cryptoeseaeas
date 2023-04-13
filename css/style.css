@@ -1,0 +1,227 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1080px;
+    margin: auto;
+}
+.resizable{
+    width: 1000px;
+    height: 600px;
+    background: #f0f1f3;
+    margin-top: 40px;
+    padding: 60px 74px;
+}
+.resizable h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #000;
+    font-weight: 600;
+}
+.resizable p {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    padding-top: 5px;
+    margin-bottom: -25px;
+}
+.the-options ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -12px;
+    width: 91%;
+}
+.the-options li{
+    z-index: 4;
+    margin-left: 81px;
+}
+.the-options-two{
+    border-bottom: 5px solid #cccccc;
+    margin-top: 72px;
+    width: 70%;
+    position: relative;
+    left: 114px;
+}
+.the-options {
+    margin-left: 21px;
+}
+.the-options input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+span {
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.wizard-panel-content{
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    margin-top: 40px;
+    padding: 30px 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 7%);
+    z-index: 4;
+}
+.wizard-panel-content p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    text-align: inherit;
+}
+.Portfolio-name input{
+    width: 100%;
+    /* height: 200px; */
+    background: #f0f1f3;
+    margin-top: 40px;
+    padding: 14px 14px 14px 14px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.Select-crypto ul{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Select-crypto li:nth-child(2) a {
+    font-size: 16px;
+    color: #fff;
+}
+.Select-crypto li a {
+    font-size: 16px;
+}
+.Select-crypto li:nth-child(2) {
+    background: #0056d8;
+    padding: 10px 15px;
+    border-radius: 5px; 
+}
+
+
+
+
+.Select-crypto-arrow-right ul{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Select-crypto-arrow-right li:nth-child(2) a {
+    font-size: 16px;
+    color: #fff;
+}
+.Select-crypto-arrow-right li a {
+    font-size: 16px;
+}
+.Select-crypto-arrow-right li:nth-child(2) {
+    background: #0056d8;
+    padding: 10px 15px;
+    border-radius: 5px; 
+}
+
+
+
+
+.Portfolio-name-two input{
+        width: 100%;
+        /* height: 200px; */
+        background: #f0f1f3;
+        margin-top: 40px;
+        padding: 14px 14px 14px 14px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        font-size: 16px;
+    }
+    .Portfolio-name-two {
+        width: 852px;
+        height: 250px;
+        background: #fff;
+        margin-top: 40px;
+        padding: 30px 80px;
+        border-radius: 8px;
+        box-shadow: 0 0 20px 3px rgb(0 0 0 / 7%);
+        display: none;
+        position: absolute;
+        top: 260px;
+    }
+    .Portfolio-name-two p{
+        font-size: 16px;
+        color: #000;
+        font-weight: 400;
+        text-align: inherit;
+    }
+
+
+
+
+    .wizard-panel-theplaceholder{
+        width: 852px;
+        height: 250px;
+        background: #fff;
+        margin-top: 40px;
+        padding: 30px 80px;
+        border-radius: 8px;
+        box-shadow: 0 0 20px 3px rgb(0 0 0 / 7%);
+        display: none;
+        position: absolute;
+        top: 260px;
+    }
+    .wizard-panel-theplaceholder p{
+        font-size: 16px;
+        color: #000;
+        font-weight: 400;
+        text-align: inherit;
+    }
+    .the-Portfolio-name input{
+        width: 100%;
+        /* height: 200px; */
+        background: #f0f1f3;
+        margin-top: 40px;
+        padding: 14px 14px 14px 14px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        font-size: 16px;
+    }
+
+    .Select-left-short ul{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Select-left-short li:nth-child(2) a {
+        font-size: 16px;
+        color: #fff;
+    }
+    .Select-left-short li a {
+        font-size: 16px;
+    }
+    .Select-left-short li:nth-child(2) {
+        background: #0056d8;
+        padding: 10px 15px;
+        border-radius: 5px; 
+    }
+
+
+
+ 
